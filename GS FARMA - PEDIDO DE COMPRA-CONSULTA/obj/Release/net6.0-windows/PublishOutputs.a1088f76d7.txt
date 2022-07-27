@@ -1,0 +1,16 @@
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\GS FARMA - PEDIDO DE COMPRA-CONSULTA.exe
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\GS FARMA - PEDIDO DE COMPRA-CONSULTA.deps.json
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\GS FARMA - PEDIDO DE COMPRA-CONSULTA.runtimeconfig.json
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\EntityFramework.SqlServer.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\EntityFramework.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\MetroFramework.Design.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\MetroFramework.Fonts.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\MetroFramework.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\runtimes\win-arm64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\runtimes\win-x64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\runtimes\win-x86\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA -  PEDIDO DE COMPRA\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

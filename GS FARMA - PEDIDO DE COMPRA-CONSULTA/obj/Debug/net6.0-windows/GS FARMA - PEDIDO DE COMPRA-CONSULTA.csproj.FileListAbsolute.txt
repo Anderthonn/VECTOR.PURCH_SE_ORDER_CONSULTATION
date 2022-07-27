@@ -1,0 +1,96 @@
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.exe
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.deps.json
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.runtimeconfig.json
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Design.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.AssemblyReference.cache
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.frmPrincipal.resources
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.GenerateResource.cache
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfoInputs.cache
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfo.cs
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CoreCompileInputs.cache
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CopyComplete
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\refint\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.genruntimeconfig.cache
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\ref\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.Properties.Resources.resources
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Anderthonn Batista\Documents\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.ResolveComReference.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.exe
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.deps.json
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.runtimeconfig.json
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Design.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.AssemblyReference.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.ResolveComReference.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.frmPrincipal.resources
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.Properties.Resources.resources
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.GenerateResource.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfoInputs.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfo.cs
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CoreCompileInputs.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CopyComplete
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\refint\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.genruntimeconfig.cache
+C:\Users\Anderthonn Batista\Desktop\PROJETOS\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\ref\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.exe
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.deps.json
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.runtimeconfig.json
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Design.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\MetroFramework.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.AssemblyReference.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.ResolveComReference.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.frmPrincipal.resources
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA.Properties.Resources.resources
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.GenerateResource.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfoInputs.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.AssemblyInfo.cs
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CoreCompileInputs.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.csproj.CopyComplete
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\refint\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.pdb
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\GS FARMA - PEDIDO DE COMPRA-CONSULTA.genruntimeconfig.cache
+C:\Users\Anderthonn Batista\Desktop\GS FARMA - PEDIDO DE COMPRA-CONSULTA\GS FARMA - PEDIDO DE COMPRA-CONSULTA\obj\Debug\net6.0-windows\ref\GS FARMA - PEDIDO DE COMPRA-CONSULTA.dll
