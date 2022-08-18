@@ -1,11 +1,11 @@
-//Chamando as using de extens„o Nuget
-//A baixo tem as using Metro Framework utilizadas para criar uma interface do usu·ria mais moderna
+//Chamando as using de extens√£o Nuget
+//A baixo tem as using Metro Framework utilizadas para criar uma interface do usu√°ria mais moderna
 using MetroFramework;
 using MetroFramework.Design;
 using MetroFramework.Fonts;
 //A using para acessar as funcionalidades do Excel
 using Microsoft.Office.Interop.Excel;
-//A using para realizar a conex„o com o banco de dados SQL Server
+//A using para realizar a conex√£o com o banco de dados SQL Server
 using System.Data;
 using System.Data.SqlClient;
 
@@ -17,14 +17,14 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
         {
             InitializeComponent();
         }
-        //String de conex„o com a base de dados SQL Server
+        //String de conex√£o com a base de dados SQL Server
         public string strConexao = @"";
         public SqlConnection con;
 
-        //Extens„o de um Data Table para a exibiÁ„o dos dados do TXT
+        //Extens√£o de um Data Table para a exibi√ß√£o dos dados do TXT
         System.Data.DataTable newTable = new System.Data.DataTable();
 
-        //Extens„o do Open File Dialog para a selecionar o arquivo TXT
+        //Extens√£o do Open File Dialog para a selecionar o arquivo TXT
         OpenFileDialog ofd = new OpenFileDialog();
 
         private void frmPrincipal_Load(object sender, EventArgs e)
@@ -36,11 +36,11 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
             catch
             {
-                MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
-        //Bot„o que ativa o Open File Dialog para selecionar o TXT e realizar a leitura e depois a visualizaÁ„o dos dados do arquivo em um Data Grid View
+        //Bot√£o que ativa o Open File Dialog para selecionar o TXT e realizar a leitura e depois a visualiza√ß√£o dos dados do arquivo em um Data Grid View
         public void btnImportar_Click(object sender, EventArgs e)
         {
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -49,11 +49,11 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
 
                 using (TextReader tr = new StreamReader(ofd.FileName))
                 {
-                    if (Path.GetExtension(ofd.SafeFileName) == ".TXT")
+                    if (Path.GetExtension(ofd.SafeFileName) == ".txt" | Path.GetExtension(ofd.SafeFileName) == ".TXT")
                     {
-                        //LÈ o texto do arquivo
+                        //L√© o texto do arquivo
                         string text = tr.ReadToEnd();
-                        //Quebra o conte˙do do TXT por linhas
+                        //Quebra o conte√∫do do TXT por linhas
                         string[] lines = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
                         tbEmpresa.Text = lines[0].ToUpper();
@@ -93,14 +93,19 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                                 if (lines[l].StartsWith("=") && lines[l].EndsWith("="))
                                 {
                                     break;
-                                }
+                                }                                
+                                if (lines[l].StartsWith("G"))
+                                {
+                                    l += 12;
+                                } 
+                                
                                 newTable.Rows.Add(lines[l].Substring(0, 6), lines[l].Substring(7, 29), lines[l].Substring(37, 6), lines[l].Substring(44, 6), lines[l].Substring(51, 6), lines[l].Substring(58, 6), lines[l].Substring(65, 6), lines[l].Substring(72, 5), lines[l].Substring(78, 6),
                                 lines[l].Substring(85, 6), lines[l].Substring(92, 3), lines[l].Substring(96, 5), lines[l].Substring(102, 8), lines[l].Substring(111, 5), lines[l].Substring(117, 7), lines[l].Substring(125, 4), lines[l].Substring(130, 7));
                             }
                         }
                         catch
                         {
-                            MessageBox.Show("Por favor apague a ultima importaÁ„o para poder realizar uma nova!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            MessageBox.Show("Por favor apague a ultima importa√ß√£o para poder realizar uma nova!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         }
 
                         dgvDadosTxt.DataSource = newTable;
@@ -109,13 +114,13 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     else
                     {
-                        MessageBox.Show("Esse arquivo n„o È um arquivo de extenÁ„o (.TXT), por favor verifique!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("Esse arquivo n√£o √© um arquivo de exten√ß√£o (.TXT), por favor verifique!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
             }
         }
 
-        //Bot„o que verifica se exitem informaÁıes nos componentes e apaga essas informaÁıes
+        //Bot√£o que verifica se exitem informa√ß√µes nos componentes e apaga essas informa√ß√µes
         private void btnApagar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -146,7 +151,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //Bot„o que lÈ os dados do Data Grid View e importa os dados para uma tabela Excel
+        //Bot√£o que l√© os dados do Data Grid View e importa os dados para uma tabela Excel
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -190,7 +195,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //SeleÁ„o do cÛdigo do produto no Data Grid View e buscando as informaÁıes determinadas dentro da base de dados
+        //Sele√ß√£o do c√≥digo do produto no Data Grid View e buscando as informa√ß√µes determinadas dentro da base de dados
         private void dgvDadosTxt_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -231,7 +236,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     catch
                     {
-                        MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
                 else if (s.ToString().Substring(0, 4) == "0000")
@@ -267,7 +272,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     catch
                     {
-                        MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
                 else if (s.ToString().Substring(0, 3) == "000")
@@ -303,7 +308,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     catch
                     {
-                        MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
                 else if (s.ToString().Substring(0, 2) == "00")
@@ -339,7 +344,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     catch
                     {
-                        MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
                 else if (s.ToString().Substring(0, 1) == "0")
@@ -375,13 +380,13 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                     }
                     catch
                     {
-                        MessageBox.Show("N„o foi possivel realizar a conex„o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("N√£o foi possivel realizar a conex√£o com a base de dados, por favor tente novamnete!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
                 }
             }
             catch
             {
-                MessageBox.Show("N„o a um codigo valido!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("N√£o a um codigo valido!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
