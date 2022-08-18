@@ -75,7 +75,7 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
 
                 using (TextReader tr = new StreamReader(ofd.FileName))
                 {
-                    if (Path.GetExtension(ofd.SafeFileName) == ".TXT")
+                    if (Path.GetExtension(ofd.SafeFileName) == ".txt" | Path.GetExtension(ofd.SafeFileName) == ".TXT")
                     {
                         //Lé o texto do arquivo
                         string text = tr.ReadToEnd();
@@ -120,6 +120,11 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
                                 {
                                     break;
                                 }
+                                if (lines[l].StartsWith("G"))
+                                {
+                                    l += 12;
+                                }
+                                
                                 newTable.Rows.Add(lines[l].Substring(0, 6), lines[l].Substring(7, 29), lines[l].Substring(37, 6), lines[l].Substring(44, 6), lines[l].Substring(51, 6), lines[l].Substring(58, 6), lines[l].Substring(65, 6), lines[l].Substring(72, 5), lines[l].Substring(78, 6),
                                 lines[l].Substring(85, 6), lines[l].Substring(92, 3), lines[l].Substring(96, 5), lines[l].Substring(102, 8), lines[l].Substring(111, 5), lines[l].Substring(117, 7), lines[l].Substring(125, 4), lines[l].Substring(130, 7));
                             }
