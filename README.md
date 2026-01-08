@@ -428,4 +428,3 @@ In this project we used the Visual Studio IDE. The chosen project model was "[Wi
 ### 5 - Notes
 
 Because the project contains some sensitive data, the code was changed to protect this information and allow publication.
-## Created by: Anderthonn Luyz M.G. Batista
