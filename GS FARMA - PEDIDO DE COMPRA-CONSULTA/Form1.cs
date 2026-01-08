@@ -1,11 +1,11 @@
-//Chamando as using de extensão Nuget
-//A baixo tem as using Metro Framework utilizadas para criar uma interface do usuária mais moderna
+//Calling the NuGet extension usings
+//Below are the Metro Framework usings used to create a more modern user interface
 using MetroFramework;
 using MetroFramework.Design;
 using MetroFramework.Fonts;
-//A using para acessar as funcionalidades do Excel
+//Using to access Excel functionality
 using Microsoft.Office.Interop.Excel;
-//A using para realizar a conexão com o banco de dados SQL Server
+//Using to connect to the SQL Server database
 using System.Data;
 using System.Data.SqlClient;
 
@@ -17,14 +17,14 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
         {
             InitializeComponent();
         }
-        //String de conexão com a base de dados SQL Server
+        //Connection string to the SQL Server database
         public string strConexao = @"";
         public SqlConnection con;
 
-        //Extensão de um Data Table para a exibição dos dados do TXT
+        //DataTable extension for displaying TXT data
         System.Data.DataTable newTable = new System.Data.DataTable();
 
-        //Extensão do Open File Dialog para a selecionar o arquivo TXT
+        //OpenFileDialog extension to select the TXT file
         OpenFileDialog ofd = new OpenFileDialog();
 
         private void frmPrincipal_Load(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //Botão que ativa o Open File Dialog para selecionar o TXT e realizar a leitura e depois a visualização dos dados do arquivo em um Data Grid View
+        //Button that opens the OpenFileDialog to select the TXT, read it, and display the data in a DataGridView
         public void btnImportar_Click(object sender, EventArgs e)
         {
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -51,9 +51,9 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
                 {
                     if (Path.GetExtension(ofd.SafeFileName) == ".txt" | Path.GetExtension(ofd.SafeFileName) == ".TXT")
                     {
-                        //Lé o texto do arquivo
+                        //Reads the file text
                         string text = tr.ReadToEnd();
-                        //Quebra o conteúdo do TXT por linhas
+                        //Splits the TXT contents by lines
                         string[] lines = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
                         tbEmpresa.Text = lines[0].ToUpper();
@@ -120,7 +120,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //Botão que verifica se exitem informações nos componentes e apaga essas informações
+        //Button that checks for data in components and clears it
         private void btnApagar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -151,7 +151,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //Botão que lé os dados do Data Grid View e importa os dados para uma tabela Excel
+        //Button that reads data from the DataGridView and imports it into an Excel worksheet
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -195,7 +195,7 @@ namespace GS_FARMA___PEDIDO_DE_COMPRA_CONSULTA
             }
         }
 
-        //Seleção do código do produto no Data Grid View e buscando as informações determinadas dentro da base de dados
+        //Selects the product code in the DataGridView and retrieves the data from the database
         private void dgvDadosTxt_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
