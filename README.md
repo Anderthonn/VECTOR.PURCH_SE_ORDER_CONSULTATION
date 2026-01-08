@@ -1,54 +1,54 @@
-# Modulo de Consulta - Pedido de Compra
-### Sumário
-1 - Introdução;  
-2 - Tela;  
-3 - Tecnologias Usadas;  
-4 - Explicação do Código;  
-5 - Observações.
-### 1 - Introdução
-O projeto foi conectado a uma base de dados SQL Server do sistema administrativo para farmacias [VETOR](https://vetorsolucoes.com.br/), o objeto desse modulo é consultar e verificar os produtos com a demanda maior que o estoque de acordo com a quantidade de dias determinado. O sistema realiza a leitura de um arquivo de extenção .TXT e capita o código do produto selecionado e procura dentro da base de dados do sistema [VETOR](https://vetorsolucoes.com.br/) os determinados dados.
+# Purchase Order Consultation Module
+### Summary
+1 - Introduction;  
+2 - Screen;  
+3 - Technologies Used;  
+4 - Code Explanation;  
+5 - Notes.
+### 1 - Introduction
+The project is connected to a SQL Server database from the [VETOR](https://vetorsolucoes.com.br/) administrative system for pharmacies. The purpose of this module is to consult and check products whose demand is higher than stock based on the specified number of days. The system reads a .TXT file and captures the selected product code, then searches in the [VETOR](https://vetorsolucoes.com.br/) system database for the corresponding data.
 
 
-### 2 - Tela
-O modulo possui uma unica tela, utilizando o [Metro Frameourk](https://www.nuget.org/packages/MetroFramework/) foi construido uma interface simples para ajudar o usuario na usabilidade.  
+### 2 - Screen
+The module has a single screen. Using [Metro Framework](https://www.nuget.org/packages/MetroFramework/), a simple interface was built to help the user with usability.  
 
 ![img](https://imgur.com/ceghcq7.png)
 
-### 3 - Tecnologias Usadas
-Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[Aplicativo do Windows Form (.NET Framework)](https://docs.microsoft.com/pt-br/dotnet/desktop/winforms/overview/?view=netdesktop-6.0)", a aplicação foi programada na linguagem [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/), aplicamos um pacote (Extenção) [NuGet](https://www.nuget.org/) o "[MetroFramework](https://www.nuget.org/packages/MetroFramework/)" para construir uma interface mais moderna e visualmente mais agradavel, os outros conjunto de classes (Using) foram das classes base do .NET Framework.  
-### 4 - Explicação do Código
+### 3 - Technologies Used
+In this project we used the Visual Studio IDE. The chosen project model was "[Windows Forms App (.NET Framework)](https://docs.microsoft.com/pt-br/dotnet/desktop/winforms/overview/?view=netdesktop-6.0)". The application was programmed in [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/). We applied a [NuGet](https://www.nuget.org/) package (extension), "[MetroFramework](https://www.nuget.org/packages/MetroFramework/)", to build a more modern and visually appealing interface. The other set of classes (using statements) were from the .NET Framework base classes.  
+### 4 - Code Explanation
   
-1° Chamamos as Extençõe baixadas do NuGet e as disponiveis do .NET;
+1° We called the extensions downloaded from NuGet and the ones available in .NET;
 ```C#
-      //Chamando as using de extensão Nuget
-      //A baixo tem as using Metro Framework utilizada para criar uma interface do usuário mais moderna
+      //Calling the NuGet extension using statements
+      //Below are the Metro Framework using statements used to create a more modern user interface
       using MetroFramework;
       using MetroFramework.Design;
       using MetroFramework.Fonts;
-      //A using para acessar as funcionalidades do Excel
+      //Using statement to access Excel features
       using Microsoft.Office.Interop.Excel;
-      //A using para realizar a conex�o com o banco de dados SQL Server
+      //Using statement to connect to the SQL Server database
       using System.Data;
       using System.Data.SqlClient;
 ```
 
-2° Criamos a conexão com o a base de dados do sistema [VETOR](https://vetorsolucoes.com.br/);
+2° We created the connection to the [VETOR](https://vetorsolucoes.com.br/) system database;
 ```C#
-      //String de conexão com a base de dados SQL Server
+      //Connection string to the SQL Server database
       public string strConexao = @"";
       public SqlConnection con;
 ```
 
-3° Nesse trecho foi extasiado as classe do Data Table e do Open File Dialog;
+3° In this section the Data Table and Open File Dialog classes were instantiated;
 ```C#
-      //Extensão de um Data Table para a exibição dos dados do TXT
+      //Extension of a Data Table for displaying the TXT data
       System.Data.DataTable newTable = new System.Data.DataTable();
 
-      //Extensão do Open File Dialog para a selecionar o arquivo TXT
+      //Extension of the Open File Dialog to select the TXT file
       OpenFileDialog ofd = new OpenFileDialog();
 ```
 
-4° Carregamento do sistema e verificação da conexão com o banco de dados;
+4° System loading and verification of the database connection;
 ```C#
       private void frmPrincipal_Load(object sender, EventArgs e)
       {
@@ -64,9 +64,9 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
       }
 ```
 
-5° Seleção e leitura do arquivo TXT para vizualizar os dados;
+5° Selection and reading of the TXT file to visualize the data;
 ```C#
-        //Botão que ativa o Open File Dialog para selecionar o TXT e realizar a leitura e depois a visualização dos dados do arquivo em um Data Grid View
+        //Button that activates the Open File Dialog to select the TXT and read and then display the file data in a Data Grid View
         public void btnImportar_Click(object sender, EventArgs e)
         {
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -77,9 +77,9 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
                 {
                     if (Path.GetExtension(ofd.SafeFileName) == ".txt" | Path.GetExtension(ofd.SafeFileName) == ".TXT")
                     {
-                        //Lé o texto do arquivo
+                        //Reads the text from the file
                         string text = tr.ReadToEnd();
-                        //Quebra o conteúdo do TXT por linhas
+                        //Splits the TXT content into lines
                         string[] lines = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
                         tbEmpresa.Text = lines[0].ToUpper();
@@ -147,9 +147,9 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
         }
 ```
 
-6° Apagar os dados da tela para realizar uma nova consulta;
+6° Clear the data on the screen to perform a new consultation;
 ```C#
-       //Botão que verifica se exitem informações nos componentes e apaga essas informações
+       //Button that checks if there is information in the components and clears that information
         private void btnApagar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -181,9 +181,9 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
         }
 ```
 
-7° Leitura dos dados do Data Grid View e importa os dados para uma tabela Excel;
+7° Read the Data Grid View data and export it to an Excel table;
 ```C#
-       //Botão que lé os dados do Data Grid View e importa os dados para uma tabela Excel
+       //Button that reads the Data Grid View data and imports it into an Excel table
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             if (tbEmpresa.Text.StartsWith(" "))
@@ -228,9 +228,9 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
         }
 ```
 
-8° Leitura da celula selecionda para realizar a consulta no banco de dados;
+8° Read the selected cell to perform the database consultation;
 ```C#
-       //Seleção do código do produto no Data Grid View e buscando as informações determinadas dentro da base de dados
+       //Selecting the product code in the Data Grid View and fetching the specified information from the database
         private void dgvDadosTxt_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -425,7 +425,7 @@ Nesse projeto usamos a IDE Visual Studio, o modelo de projeto escolhido foi o "[
             }
         }
 ```
-### 5 - Observações
+### 5 - Notes
 
-Como o projeto possui alguns dados senciveis o código foi alterado para protejer essas informações e ser publicado.
-## Criado por: Anderthonn Luyz M.G. Batista
+Because the project contains some sensitive data, the code was changed to protect this information and allow publication.
+## Created by: Anderthonn Luyz M.G. Batista
